@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.pyc
+*.cache
+venv/
+env/
+ENV/
+*.env
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# React build output
+frontend/build/
+frontend/.env
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Redis dump file
+dump.rdb
+
+# Docker
+*.dockerignore
+Dockerfile
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# JetBrains IDEs (PyCharm, etc)
+.idea/
+
+# Tests
+.pytest_cache/
+
+# Misc
+*.swp
